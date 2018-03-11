@@ -47,10 +47,13 @@ class WishsController extends Controller {
     }
     async create() {
         const ctx = this.ctx;
-        ctx.validate(createRule);
-        const req = ctx.request.body;
-        let res = await ctx.service.wishs.create(req);
-        ctx.body = { id: res.id };
+        // ctx.validate(createRule);
+        // const req = ctx.request.body;
+        // let res = await ctx.service.wishs.create(req);
+        // ctx.body = { id: res.id };
+        // ctx.status = 201;
+
+        ctx.body = 'post create';
         ctx.status = 201;
     }
     async destroy() {
