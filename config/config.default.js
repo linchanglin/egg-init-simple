@@ -36,12 +36,12 @@ exports.cors = {
   credentials: true
 }
 
-exports.cluster = {
-  listen: {
-    port: 6001,
-    hostname: '127.0.0.1',
-    // path: '/var/run/egg.sock',
-  }
-}
+// exports.cluster = {
+//   listen: {
+//     port: 7001,
+//     hostname: '127.0.0.1',
+//     // path: '/var/run/egg.sock',
+//   }
+// }
 
 
