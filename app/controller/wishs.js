@@ -1,20 +1,6 @@
 const Controller = require('egg').Controller;
 
 const createRule = {
-    // type: { type: 'string', required: true},
-    // source: { type: 'string' },
-    // college_id: { type: 'number' },
-    // college_name: { type: 'string' },
-    // gender: { type: 'string', required: true },
-    // want_gender: { type: 'string', required: true },
-    // address: { type: 'string' },
-    // wish: { type: 'string', required: true},
-    // wechat: { type: 'string', required: true},
-    // create_openid: { type: 'string' },
-    // accept_openid: { type: 'string' },
-    // if_accept: { type: 'number', default: 0 },
-    // created_at: { type: 'number' }
-
     type: { type: 'string' },
     source: { type: 'string', required: false },
     college_id: { type: 'number', required: false },
