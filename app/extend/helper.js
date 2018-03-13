@@ -1,9 +1,11 @@
 // app/extend/helper.js
 // import moment from 'moment';
 const moment = require('moment');
+const sha1 = require('sha1');
 
 module.exports = {
-    moment: moment
+    moment: moment,
+    sha1: sha1
 };
 
 
